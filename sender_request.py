@@ -1,4 +1,3 @@
-# Георгина Адайи, 16-я когорта — Финальный проект. Инженер по тестированию плюс
 import configuration
 import requests
 import data
@@ -6,10 +5,6 @@ import data
 import logging
 
 
-def courier_acc(body):
-    return requests.post(configuration.URL_SERVICE + configuration.CREATE_COURIER_PATH,
-                         json = body,
-                         headers = data.headers)
 def make_order(body1):
     print(configuration.URL_SERVICE+configuration.CREATE_ORDER_PATH)
     return requests.post(configuration.URL_SERVICE +configuration.CREATE_ORDER_PATH,
