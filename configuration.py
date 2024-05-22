@@ -1,7 +1,4 @@
-# Георгина Адайи, 16-я когорта — Финальный проект. Инженер по тестированию плюс
-URL_SERVICE = "https://368a0547-ad42-4163-b76f-3d4e3cea4303.serverhub.praktikum-services.ru"
-DOC_PATH = "/docs/"
+URL_SERVICE = "https://1d537329-ab5a-46fb-91f5-1b9e23bf9ea5.serverhub.praktikum-services.ru"
 CREATE_COURIER_PATH = "/api/v1/courier"
 CREATE_ORDER_PATH = "/api/v1/orders"
-CREATE_USER_PATH = "/api/v1/users/"
 GET_ORDER_PATH = "/v1/orders/track?t="
