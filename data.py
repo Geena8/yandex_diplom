@@ -1,11 +1,5 @@
-# Георгина Адайи, 16-я когорта — Финальный проект. Инженер по тестированию плюс
 headers = {
     "Content-Type": "application/json"
-}
-courier_body = {
-    "login": "ninja",
-    "password": "1234",
-    "firstName": "saske"
 }
 
 user_body = {
